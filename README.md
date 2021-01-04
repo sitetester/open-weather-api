@@ -1,6 +1,7 @@
 Key points:
 
-- It dynamically loads all JSON fields using `Gson().fromJson(response.body(), Any::class.java)`
+- It dynamically loads all JSON fields using `Gson().fromJson(response.body(), Any::class.java)` i.e. no need to
+  create `data class`es for handling each nested JSON object
 - Api routes are not fixed to any specific query param, it's generic, so could be used for multiple cases
 
 Example functional requests, ( reference: https://openweathermap.org/current )
