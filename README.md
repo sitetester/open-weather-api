@@ -1,4 +1,4 @@
-Key points:
+**Key points :**
 
 - It dynamically loads all JSON fields using `Gson().fromJson(response.body(), Any::class.java)` i.e. no need to
   create `data class`es for handling each nested JSON object
